@@ -1,0 +1,58 @@
+﻿using System.Text;
+
+namespace Song
+{
+    public class Song
+    {
+        public string ListType { get; set; } = null!;
+
+        public string Name { get; set; } = null!;
+
+        public string Time { get; set; } = null!;
+
+        public string AddAndListSongs(string[] songs, string wantedList)
+        {
+            List<Song> addedSongs = new();
+
+            foreach (string currentSong in songs)
+            {
+                string[] data = currentSong.Split('_');
+
+                string type = data[0];
+                string name = data[1];
+                string time = data[2];
+
+                Song song = new()
+                {
+                    ListType = type,
+                    Name = name,
+                    Time = time
+                };
+
+                addedSongs.Add(song);
+            }
+
+            List<Song> filtered = wantedList == "all"
+                ? addedSongs
+                : addedSongs.Where(s => s.ListType == wantedList).ToList();
+
+            StringBuilder sb = new();
+            foreach (Song song in filtered)
+            {
+                sb.AppendLine(song.Name);
+            }
+
+            return sb.ToString().Trim();
+        }
+
+        static void Main()
+        {
+            Song song = new Song();
+            string[] songs = { "Pop_Song1_3:30", "Rock_Song2_4:15", "Pop_Song3_3:00" };
+            string result = song.AddAndListSongs(songs, "Pop");
+            Console.WriteLine(result);
+        }
+    }  
+
+
+}
