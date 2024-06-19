@@ -1,5 +1,5 @@
 # Unit Testing
-This repository contains large variety of unit tests  and test solutions using different tools - QUnit, NUnit, Mocka and Chai  
+This repository contains large variety of unit tests  and test solutions using different testing tools - QUnit, NUnit, Mocka and Chai  
 
 
 ## Table of Contents
