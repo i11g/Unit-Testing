@@ -5,7 +5,6 @@ This repository contains large variety of unit tests  and test solutions using d
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Features](#features)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
 * [License](#license) 
