@@ -1,5 +1,5 @@
 # Unit Testing
-This repository contains large variety of automation unit tests and test solutions  
+This repository contains large variety of unit tests  and test solutions using different tools - QUnit, NUnit, Mocka and Chai  
 
 
 ## Table of Contents
@@ -11,14 +11,15 @@ This repository contains large variety of automation unit tests and test solutio
 * [License](#license) 
 
 ## General Information
-The repo contains a number of tests using nUnit, Mocca, qUnit and focus on:
-- Unit Testing
-- Working with fundamental concepts of automated testing
+The repo contains a number of tests using NUnit, Mocca, Chai, QUnit and focus on:
+- Unit Testing;
+- Working with fundamental concepts of automated testing;
 
 ## Technologies Used
 - C #, .Net - version 8.0
-- nUnit;
-- 
+- NUnit;
+- Mocka, Chai
+- QUnit
 
 ## Acknowledgements
 
