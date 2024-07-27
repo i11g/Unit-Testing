@@ -15,10 +15,10 @@ The repo contains a number of tests using NUnit, Mocca, Chai, QUnit and focus on
 - Working with fundamental concepts of automated testing;
 
 ## Technologies Used
-- C #, .Net - version 8.0
+- C#, .Net - version 8.0;
 - NUnit;
-- Mocka, Chai
-- QUnit
+- Mocka, Chai;
+- QUnit;
 
 ## Acknowledgements
 
